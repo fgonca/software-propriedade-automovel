@@ -21,7 +21,7 @@ public class Main
 		
 		while (tarefa != 0 && tarefa != -1)
 		{
-			tarefa = ctrlArq.exporMenu();
+			tarefa = organizarResposta(tarefa);
 		}
 		
 		mensagemFinal(tarefa);
